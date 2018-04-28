@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_GaussTurret</defName>
@@ -50,7 +50,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_GaussTurret</projectileDef>
+        <defaultProjectile>Bullet_GaussTurret</defaultProjectile>
         <warmupTime>1.5</warmupTime>
         <range>52</range>
         <soundCast>GaussShot</soundCast>
@@ -60,4 +60,4 @@
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

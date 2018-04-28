@@ -98,3 +98,11 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GaussWeapons-A16\Sou
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GaussWeapons-A16\Source\GaussWeapons\obj\Debug\GaussWeapons.csprojResolveAssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GaussWeapons-A16\Source\GaussWeapons\obj\Debug\GaussWeapons.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\GaussWeapons-A16\Source\GaussWeapons\obj\Debug\GaussWeapons.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\bin\Debug\GaussWeapons.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\bin\Debug\GaussWeapons.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\bin\Debug\Assembly-CSharp.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\bin\Debug\UnityEngine.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\obj\Debug\GaussWeapons.csprojResolveAssemblyReference.cache
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\GaussWeapons\obj\Debug\GaussWeapons.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Source\Assemblies\GaussWeapons.dll
+D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\Assemblies\GaussWeapons.dll

@@ -12,10 +12,7 @@ namespace GaussWeapons
 
         protected override int ShotsPerBurst
         {
-            get
-            {
-                return this.verbProps.burstShotCount;
-            }
+            get { return this.verbProps.burstShotCount; }
         }
 
         public override void WarmupComplete()
@@ -27,9 +24,11 @@ namespace GaussWeapons
                 if (num == 1)
                 {
                     isJammed = false;
-                    Vector3 loc = new Vector3((float)this.caster.Position.x + 1f, (float)this.caster.Position.y, (float)this.caster.Position.z + 1f);
+                    Vector3 loc = new Vector3((float) this.caster.Position.x + 1f, (float) this.caster.Position.y,
+                        (float) this.caster.Position.z + 1f);
                     MoteMaker.ThrowText(loc, caster.Map, "Jam Cleared", Color.white);
-                    this.ownerEquipment.def.soundInteract.PlayOneShot(new TargetInfo(caster.Position, caster.Map, false));
+                    this.ownerEquipment.def.soundInteract.PlayOneShot(
+                        new TargetInfo(caster.Position, caster.Map, false));
                     return;
                 }
                 else
@@ -74,9 +73,10 @@ namespace GaussWeapons
                     break;
             }
 
-            if(Rand.Range(1, jamChance) == 1)
+            if (Rand.Range(1, jamChance) == 1)
             {
-                Vector3 loc = new Vector3((float)this.caster.Position.x + 1f, (float)this.caster.Position.y, (float)this.caster.Position.z + 1f);
+                Vector3 loc = new Vector3((float) this.caster.Position.x + 1f, (float) this.caster.Position.y,
+                    (float) this.caster.Position.z + 1f);
                 MoteMaker.ThrowText(loc, caster.Map, "Jammed", Color.white);
                 SoundStarter.PlayOneShot(jamSound, new TargetInfo(caster.Position, caster.Map, false));
                 isJammed = true;

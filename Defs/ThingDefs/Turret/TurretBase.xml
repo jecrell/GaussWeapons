@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="BuildingBase" Abstract="True">
     <category>Building</category>
@@ -65,11 +65,11 @@
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Gun_GaussTurret</turretGunDef>
       <turretBurstCooldownTime>600</turretBurstCooldownTime>
-      <turretTopgraphicPath>Things/Building/GaussTurretGun</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/Building/GaussTurretGun</turretTopGraphicPath>
     </building>
     <researchPrerequisites>
       <li>GaussTurret</li>
     </researchPrerequisites>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

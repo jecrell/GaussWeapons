@@ -1,5 +1,5 @@
-﻿using UnityEngine; 
-using Verse;  
+﻿using UnityEngine;
+using Verse;
 using Verse.Sound;
 using RimWorld;
 
@@ -7,19 +7,9 @@ namespace GaussWeapons
 {
     public class Projectile_Gauss : Projectile
     {
-        // Variables.
-        public int tickCounter = 0;
-        public Thing hitThing = null;
-
         // Comps
-        public CompExtraDamage compED;
-
-        public override void SpawnSetup(Map map, bool respawningAfterLoad)
-		{
-			base.SpawnSetup(map, respawningAfterLoad); 
-            compED = this.GetComp<CompExtraDamage>();
-        }
-
+        private CompExtraDamage compED => GetComp<CompExtraDamage>();
+        
         /// <summary>
         /// Impacts a pawn/object or the ground.
         /// </summary>
@@ -27,41 +17,48 @@ namespace GaussWeapons
         {
             Map map = base.Map;
             base.Impact(hitThing);
+            BattleLogEntry_RangedImpact battleLogEntry_RangedImpact =
+                new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget, this.equipmentDef,
+                    this.def);
+            Find.BattleLog.Add(battleLogEntry_RangedImpact);
             if (hitThing != null)
             {
-                int damageAmountBase = this.def.projectile.damageAmountBase;
-                ThingDef equipmentDef = this.equipmentDef;
-                DamageInfo dinfo = new DamageInfo(this.def.projectile.damageDef, damageAmountBase, this.ExactRotation.eulerAngles.y, this.launcher, null, equipmentDef);
-                hitThing.TakeDamage(dinfo);
-                Pawn pawn = hitThing as Pawn;
-                if (pawn != null && !pawn.Downed && Rand.Value < compED.chanceToProc)
+                var damageAmountBase = this.def.projectile.damageAmountBase;
+                var damageDef = this.def.projectile.damageDef;
+                var amount = damageAmountBase;
+                var y = this.ExactRotation.eulerAngles.y;
+                var dinfo = new DamageInfo(damageDef, amount, y, launcher, null, equipmentDef,
+                    DamageInfo.SourceCategory.ThingOrUnknown);
+                hitThing.TakeDamage(dinfo).InsertIntoLog(battleLogEntry_RangedImpact);
+                if (compED != null && hitThing is Pawn pawn && !pawn.Downed && Rand.Value < compED.chanceToProc)
                 {
-                    MoteMaker.ThrowMicroSparks(this.destination, Map);
-                    hitThing.TakeDamage(new DamageInfo(DefDatabase<DamageDef>.GetNamed(compED.damageDef, true), compED.damageAmount, this.ExactRotation.eulerAngles.y, this.launcher, null, null));
+                    GuassImpact(hitThing);
                 }
             }
             else
             {
                 SoundDefOf.BulletImpactGround.PlayOneShot(new TargetInfo(base.Position, map, false));
                 MoteMaker.MakeStaticMote(this.ExactPosition, map, ThingDefOf.Mote_ShotHit_Dirt, 1f);
-                ThrowMicroSparksBlue(this.ExactPosition, Map);
+                if (base.Position.GetTerrain(map).takeSplashes)
+                {
+                    MoteMaker.MakeWaterSplash(this.ExactPosition, map,
+                        Mathf.Sqrt((float) this.def.projectile.damageAmountBase) * 1f, 4f);
+                }
             }
         }
 
-        public static void ThrowMicroSparksBlue(Vector3 loc, Map map)
+        private void GuassImpact(Thing hitThing)
         {
-            if (!loc.ShouldSpawnMotesAt(map) || map.moteCounter.SaturatedLowPriority)
-            {
-                return;
-            }
-            MoteThrown moteThrown = (MoteThrown)ThingMaker.MakeThing(ThingDef.Named("Mote_MicroSparksBlue"), null);
-            moteThrown.Scale = Rand.Range(0.8f, 1.2f);
-            moteThrown.rotationRate = Rand.Range(-12f, 12f);
-            moteThrown.exactPosition = loc;
-            moteThrown.exactPosition -= new Vector3(0.5f, 0f, 0.5f);
-            moteThrown.exactPosition += new Vector3(Rand.Value, 0f, Rand.Value);
-            moteThrown.SetVelocity((float)Rand.Range(35, 45), 1.2f);
-            GenSpawn.Spawn(moteThrown, loc.ToIntVec3(), map);
+            var extraDamageDef = DefDatabase<DamageDef>.GetNamed(compED.damageDef, true);
+            var extraDam = new DamageInfo(extraDamageDef,
+                compED.damageAmount, this.ExactRotation.eulerAngles.y, this.launcher, null, null);
+            var battleLogEntry_RangedImpactExtra =
+                new BattleLogEntry_RangedImpact(this.launcher, hitThing, this.intendedTarget, this.equipmentDef,
+                    this.def);
+
+            MoteMaker.ThrowMicroSparks(this.destination, Map);
+            Find.BattleLog.Add(battleLogEntry_RangedImpactExtra);
+            hitThing.TakeDamage(extraDam).InsertIntoLog(battleLogEntry_RangedImpactExtra);
         }
     }
 }

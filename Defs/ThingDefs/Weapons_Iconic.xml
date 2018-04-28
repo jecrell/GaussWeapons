@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_XBRG</defName>
@@ -50,7 +50,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_XBRG</projectileDef>
+        <defaultProjectile>Bullet_XBRG</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>40</range>
         <soundCast>ThatGun</soundCast>
@@ -113,7 +113,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_Ronon</projectileDef>
+        <defaultProjectile>Bullet_Ronon</defaultProjectile>
         <warmupTime>0.5</warmupTime>
         <range>40</range>
         <soundCast>RonXShot</soundCast>
@@ -125,4 +125,4 @@
     <li>MedievalShields_ValidSidearm</li>
     </weaponTags>
   </ThingDef>  
-</ThingDefs>
+</Defs>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
   <RecipeDef>
     <defName>RepairGaussPistol</defName>
@@ -11,10 +11,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+      <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -68,10 +65,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+      <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -125,10 +119,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+        <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -182,10 +173,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+        <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -239,10 +227,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+	  <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -296,10 +281,7 @@
     <effectWorking>Cook</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>12</minLevel>
-      </li>
+	  <Crafting>12</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <recipeUsers>
@@ -343,4 +325,4 @@
     </fixedIngredientFilter>
   </RecipeDef>
   
-</RecipeDefs>
+</Defs>

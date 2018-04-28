@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf303fdd-b02f-4284-8464-28952fe210d2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Projectile_GaussGrenade.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <marker date="1524900971239" expanded="false" signature="6:31" ph="..." />
+                <marker date="1524900971239" expanded="true" signature="111:3422" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="199:346" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="383:663" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="462:653" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="567:639" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="719:985" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="786:870" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="1027:1965" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="1496:1955" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="2042:2628" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="2138:2190" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="2699:3416" ph="{...}" />
+                <marker date="1524900971239" expanded="true" signature="2795:2847" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projectile_Gauss.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+              <folding>
+                <marker date="1524909167544" expanded="false" signature="6:66" ph="..." />
+                <marker date="1524909167544" expanded="true" signature="90:2748" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="139:2746" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="250:335" ph="/// Impacts a pawn/object or the ground. ... " />
+                <marker date="1524909167544" expanded="true" signature="390:2007" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="776:1486" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="1393:1472" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="1503:1997" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="1784:1983" ph="{...}" />
+                <marker date="1524909167544" expanded="true" signature="2057:2740" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Projectile.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bb/251ee086/Projectile.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Verb_ShootJam.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1463">
+              <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+              <folding>
+                <marker date="1524900976262" expanded="true" signature="6:66" ph="..." />
+                <marker date="1524900976262" expanded="true" signature="147:3603" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="299:377" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="424:3597" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="460:1221" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="609:1122" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="1143:1207" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="1361:2460" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="2508:2943" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="3048:3587" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="3211:3502" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="3302:3381" ph="{...}" />
+                <marker date="1524900976262" expanded="true" signature="3406:3484" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompProperties_ExtraDamage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaussWeapons/CompProperties_ExtraDamage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1524900315472" expanded="true" signature="35:225" ph="{...}" />
+                <marker date="1524900315472" expanded="true" signature="98:223" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompExtraDamage.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GaussWeapons/CompExtraDamage.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+              <folding>
+                <marker date="1524900315469" expanded="true" signature="36:1067" ph="{...}" />
+                <marker date="1524900315469" expanded="true" signature="83:1065" ph="{...}" />
+                <marker date="1524900315469" expanded="true" signature="331:886" ph="{...}" />
+                <marker date="1524900315469" expanded="true" signature="485:699" ph="{...}" />
+                <marker date="1524900315469" expanded="true" signature="716:876" ph="{...}" />
+                <marker date="1524900315469" expanded="true" signature="932:1059" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ImpactSomething</find>
+      <find>Take</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bb/251ee086/Projectile.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GaussWeapons/CompExtraDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GaussWeapons/CompProperties_ExtraDamage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs" />
+        <option value="$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs" />
+        <option value="$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="129" />
+    <option name="y" value="57" />
+    <option name="width" value="1467" />
+    <option name="height" value="914" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GaussWeapons (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GaussWeapons (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="GaussWeapons" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RimworldModReleaseTool.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Executable.Deployer">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+    <configuration name="Deployer" type="RunExe" factoryName=".NET Executable">
+      <option name="EXE_PATH" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons\RimworldModReleaseTool.exe" />
+      <option name="PROGRAM_PARAMETERS" value="D:\SteamLibrary\steamapps\common\RimWorld\Mods\GaussWeapons" />
+      <option name="WORKING_DIRECTORY" value="D:\SteamLibrary\steamapps\common\RimWorld\ModsWorkspace\GaussWeapons" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Executable.Deployer" />
+      <item index="1" class="java.lang.String" itemvalue="Unity Debug.Attach to Unity Editor" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf303fdd-b02f-4284-8464-28952fe210d2" name="Default" comment="" />
+      <created>1524900345585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524900345585</updated>
+      <workItem from="1524900419856" duration="5105000" />
+      <workItem from="1524909056453" duration="849000" />
+      <workItem from="1524910922568" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5965000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="129" y="57" width="1467" height="914" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41129032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2652768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1524900971239" expanded="false" signature="6:31" ph="..." />
+            <marker date="1524900971239" expanded="true" signature="111:3422" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="199:346" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="383:663" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="462:653" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="567:639" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="719:985" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="786:870" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1027:1965" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1496:1955" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2042:2628" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2138:2190" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2699:3416" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2795:2847" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bb/251ee086/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6232">
+          <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <marker date="1524900976262" expanded="true" signature="6:66" ph="..." />
+            <marker date="1524900976262" expanded="true" signature="147:3603" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="299:377" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="424:3597" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="460:1221" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="609:1122" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1143:1207" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1361:2460" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="2508:2943" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3048:3587" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3211:3502" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3302:3381" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3406:3484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompProperties_ExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524900315472" expanded="true" signature="35:225" ph="{...}" />
+            <marker date="1524900315472" expanded="true" signature="98:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <marker date="1524900315469" expanded="true" signature="36:1067" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="83:1065" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="331:886" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="485:699" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="716:876" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="932:1059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <marker date="1524909167544" expanded="false" signature="6:66" ph="..." />
+            <marker date="1524909167544" expanded="true" signature="90:2748" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="139:2746" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="250:335" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1524909167544" expanded="true" signature="390:2007" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="776:1486" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1393:1472" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1503:1997" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1784:1983" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="2057:2740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1524900971239" expanded="false" signature="6:31" ph="..." />
+            <marker date="1524900971239" expanded="true" signature="111:3422" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="199:346" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="383:663" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="462:653" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="567:639" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="719:985" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="786:870" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1027:1965" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1496:1955" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2042:2628" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2138:2190" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2699:3416" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2795:2847" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bb/251ee086/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6232">
+          <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <marker date="1524900976262" expanded="true" signature="6:66" ph="..." />
+            <marker date="1524900976262" expanded="true" signature="147:3603" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="299:377" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="424:3597" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="460:1221" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="609:1122" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1143:1207" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1361:2460" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="2508:2943" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3048:3587" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3211:3502" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3302:3381" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3406:3484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompProperties_ExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524900315472" expanded="true" signature="35:225" ph="{...}" />
+            <marker date="1524900315472" expanded="true" signature="98:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <marker date="1524900315469" expanded="true" signature="36:1067" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="83:1065" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="331:886" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="485:699" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="716:876" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="932:1059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="27" column="46" lean-forward="true" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <marker date="1524909167544" expanded="false" signature="6:66" ph="..." />
+            <marker date="1524909167544" expanded="true" signature="90:2748" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="139:2746" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="250:335" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1524909167544" expanded="true" signature="390:2007" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="776:1486" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1393:1472" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1503:1997" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1784:1983" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="2057:2740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_GaussGrenade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <marker date="1524900971239" expanded="false" signature="6:31" ph="..." />
+            <marker date="1524900971239" expanded="true" signature="111:3422" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="199:346" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="383:663" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="462:653" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="567:639" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="719:985" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="786:870" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1027:1965" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="1496:1955" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2042:2628" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2138:2190" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2699:3416" ph="{...}" />
+            <marker date="1524900971239" expanded="true" signature="2795:2847" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Verb_ShootJam.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+          <folding>
+            <marker date="1524900976262" expanded="true" signature="6:66" ph="..." />
+            <marker date="1524900976262" expanded="true" signature="147:3603" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="299:377" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="424:3597" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="460:1221" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="609:1122" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1143:1207" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="1361:2460" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="2508:2943" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3048:3587" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3211:3502" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3302:3381" ph="{...}" />
+            <marker date="1524900976262" expanded="true" signature="3406:3484" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <marker date="1524900315469" expanded="true" signature="36:1067" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="83:1065" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="331:886" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="485:699" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="716:876" ph="{...}" />
+            <marker date="1524900315469" expanded="true" signature="932:1059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/CompProperties_ExtraDamage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1524900315472" expanded="true" signature="35:225" ph="{...}" />
+            <marker date="1524900315472" expanded="true" signature="98:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/765250CD-2B53-4903-8F57-1EFC3734D8FA/bb/251ee086/Projectile.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="328" column="28" lean-forward="false" selection-start-line="328" selection-start-column="28" selection-end-line="328" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GaussWeapons/Projectile_Gauss.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <marker date="1524909167544" expanded="false" signature="6:66" ph="..." />
+            <marker date="1524909167544" expanded="true" signature="90:2748" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="139:2746" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="250:335" ph="/// Impacts a pawn/object or the ground. ... " />
+            <marker date="1524909167544" expanded="true" signature="390:2007" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="776:1486" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1393:1472" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1503:1997" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="1784:1983" ph="{...}" />
+            <marker date="1524909167544" expanded="true" signature="2057:2740" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
